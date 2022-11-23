@@ -8,35 +8,34 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx1fc84b6c9ba2a627',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: 'ca63069dd899c7c3c5d1354ed0fa2049',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '黑龙江',
+  CITY: '齐齐哈尔',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '秋秋宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: '欢迎关注你的大窝瓜',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: '今天也很爱你哟',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '10-01',
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
-        },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '节日', name: '周年纪念日', year: '2021', date: '08-25',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '生日', name: '秋秋宝贝', year: '2001', date: '10-01',
+        },
+        {
+          type: '生日', name: '大窝瓜', year: '2002', date: '04-23',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
